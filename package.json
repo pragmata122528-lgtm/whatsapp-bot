@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-channel-forwarder",
+  "version": "1.0.0",
+  "description": "Forwards WhatsApp channel messages to a group automatically",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "get-ids": "node get-ids.js",
+    "find-channels": "node find-channels.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}
